@@ -11,7 +11,7 @@
           <h4 class="subheading font-weight-thin white--text">Programmer, Designer, and A Great Dreamer</h4>
         </div>
         </v-flex>
-        <v-flex>
+        <v-flex text-xs-center text-sm-center text-md-center>
           <div class="chevron"></div>
           <span class="text">Scroll down</span>
         </v-flex>
@@ -40,8 +40,8 @@
               </p>
               <h4>Role: UI/UX Designer, Frontend Developer</h4>
               <v-flex>
-                <v-btn color="primary" href="https://github.com/vallendra/gokil-front-3"><v-icon left>fab fa-github</v-icon>Check on Github</v-btn>
-                <v-btn color="primary" href="http://gokil-kyky2.herokuapp.com/"><v-icon left>fas fa-project-diagram</v-icon>Check on Heroku</v-btn>
+                <v-btn color="primary" href="https://github.com/vallendra/gokil-front-3" target="_blank"><v-icon left>fab fa-github</v-icon>Check on Github</v-btn>
+                <v-btn color="primary" href="http://gokil-kyky2.herokuapp.com/" target="_blank"><v-icon left>fas fa-project-diagram</v-icon>Check on Heroku</v-btn>
               </v-flex>
             </div>
           </v-flex>
@@ -62,7 +62,7 @@
                   Darurat! is an application for emergency situation. This application is made for competition at Technofest UMN 2018.
                 </p>
                 <h4>Role: Idea generation, UX Designer</h4>
-                <v-btn color="primary" href="https://drive.google.com/open?id=1ff0D0qO11PtQfC5-kSDu1IsvcBCuzYnS"><v-icon left>fab fa-google-drive</v-icon>Check on Drive</v-btn>
+                <v-btn color="primary" href="https://drive.google.com/open?id=1ff0D0qO11PtQfC5-kSDu1IsvcBCuzYnS" target="_blank"><v-icon left>fab fa-google-drive</v-icon>Check on Drive</v-btn>
               </div>
           </v-flex>
       </v-layout>
@@ -83,7 +83,7 @@
               </p>
               <h4>Role: Idea generation, UI/UX Designer</h4>
               <v-flex>
-                <v-btn color="primary" href="https://xd.adobe.com/view/d0cb792e-51ad-4b0e-6eeb-4568b643e4c8-a6fa/"><v-icon left>fas fa-project-diagram</v-icon>Check the prototype</v-btn>
+                <v-btn color="primary" href="https://xd.adobe.com/view/d0cb792e-51ad-4b0e-6eeb-4568b643e4c8-a6fa/" target="_blank"><v-icon left>fas fa-project-diagram</v-icon>Check the prototype</v-btn>
               </v-flex>
             </div>
           </v-flex>
@@ -98,9 +98,9 @@
       <v-layout>
         <v-flex xs12 text-xs-center>
           <div data-aos="fade-right" data-aos-duration="2000">
-            <v-btn class="white--text" flat large href="https://github.com/vallendra"><v-icon left>fab fa-github</v-icon>Check my Github account</v-btn>
-            <v-btn class="white--text" flat large href="https://bit.ly/KykyArtworks"><v-icon left>fab fa-google-drive</v-icon>Check my other artworks</v-btn>
-            <v-btn class="white--text" flat large href="https://www.linkedin.com/in/kfvallendra"><v-icon left>fab fa-linkedin-in</v-icon>Connect to my Linkedin</v-btn>
+            <v-btn class="white--text" flat large href="https://github.com/vallendra" target="_blank"><v-icon left>fab fa-github</v-icon>Check my Github account</v-btn>
+            <v-btn class="white--text" flat large href="https://bit.ly/KykyArtworks" target="_blank"><v-icon left>fab fa-google-drive</v-icon>Check my other artworks</v-btn>
+            <v-btn class="white--text" flat large href="https://www.linkedin.com/in/kfvallendra" target="_blank"><v-icon left>fab fa-linkedin-in</v-icon>Connect to my Linkedin</v-btn>
           </div>
         </v-flex>
       </v-layout>
@@ -155,6 +155,7 @@ export default {
 
  .chevron {
   position: absolute;
+  margin-left: 30px;
   width: 28px;
   height: 8px;
   opacity: 0;
@@ -213,7 +214,6 @@ export default {
 .text {
   display: block;
   margin-top: 75px;
-  margin-left: -30px;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 12px;
   color: #fff;
