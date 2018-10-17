@@ -9,7 +9,11 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0-rc.1",
+    "aos": "^2.3.4",
+    "vivus": "^0.4.4",
     "vue": "^2.5.17",
+    "vue-parallaxy": "^1.1.1",
+    "vue-svg-draw": "^1.0.7",
     "vuetify": "^1.2.0"
   },
   "devDependencies": {

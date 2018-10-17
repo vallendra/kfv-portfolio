@@ -8,7 +8,9 @@ import {
   VBtn,
   VIcon,
   VGrid,
+  VParallax,
   VToolbar,
+  VCard,
   transitions
 } from 'vuetify'
 import 'vuetify/src/stylus/app.styl'
@@ -23,6 +25,8 @@ Vue.use(Vuetify, {
     VIcon,
     VGrid,
     VToolbar,
+    VParallax,
+    VCard,
     transitions
   },
   theme: {
